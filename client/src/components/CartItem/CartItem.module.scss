@@ -1,0 +1,59 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 1px solid #2e2e2e;
+  padding: 15px 0;
+
+  &:first-of-type {
+    border-top: 1px solid #2e2e2e;
+  }
+}
+
+.top {
+  display: flex;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  width: 130px;
+  height: 80px;
+  border-radius: 8px;
+  margin-right: 14px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.title {
+  margin-bottom: 4px;
+}
+
+.price {
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.deleteButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  background-color: #ff5050;
+  color: #fff;
+  border-radius: 6px;
+  padding: 4px;
+  user-select: none;
+}

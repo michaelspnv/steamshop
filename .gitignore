@@ -1,0 +1,8 @@
+/client/node_modules
+/client/dist
+/client/package-lock.json
+
+/api/.idea
+
+.vscode/*
+!.vscode/extensions.json

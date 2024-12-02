@@ -1,0 +1,112 @@
+.container {
+  min-height: calc(100vh - 60px);
+  padding: 30px;
+}
+
+.loaderWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  border-top: 3px solid #000;
+  border-right: 3px solid transparent;
+  animation: rotation 1s linear infinite;
+  margin-bottom: 30px;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.img {
+  transition: 0.6s ease;
+  height: 175px;
+  overflow: hidden;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.addToCartButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 60%;
+  padding: 12px 0;
+  text-align: center;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: 0.2s ease;
+  border: none;
+}
+
+.priceTitle {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.price {
+  font-size: 20px;
+}
+
+.ratingWrapper {
+  margin-bottom: 15px;
+}
+
+.ratingTitle {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.rating {
+  font-size: 20px;
+}
+
+.releaseDateWrapper {
+  margin-bottom: 15px;
+}
+
+.releaseDateTitle {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.releaseDate {
+  font-size: 20px;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.description {
+  line-height: 24px;
+}

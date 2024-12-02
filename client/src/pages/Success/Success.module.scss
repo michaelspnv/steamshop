@@ -1,0 +1,21 @@
+.container {
+  min-height: calc(100vh - 60px);
+  padding: 30px;
+}
+
+.mainText {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.returnButton {
+  display: block;
+  background-color: #0080ff;
+  padding: 15px 0;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}

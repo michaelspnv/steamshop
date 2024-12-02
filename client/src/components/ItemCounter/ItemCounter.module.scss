@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  height: 30px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  border: 1px solid #2e2e2e;
+  border-radius: 8px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  color: #000;
+  user-select: none;
+}
+
+.input {
+  width: 34px;
+  outline: none;
+  color: #fff;
+  font-family: inherit;
+  background-color: #262626;
+  border: none;
+  text-align: center;
+}
