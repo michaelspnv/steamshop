@@ -1,0 +1,81 @@
+.card {
+  position: relative;
+  background: var(--tg-theme-secondary-bg-color);
+  border: 1px solid #6d6d6d;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.img {
+  transition: 0.6s ease;
+  height: 80px;
+  overflow: hidden;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 92px;
+  padding: 10px 12px;
+  color: var(--tg-theme-text-color);
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  line-height: 18px;
+}
+
+.availabilityMarker {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 16px;
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+
+.bottomWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonWrapper {
+  display: flex;
+}
+
+.deleteButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  background-color: #ff5050;
+  border: none;
+  border-radius: 6px;
+  width: 25px;
+  height: 20px;
+}
+
+.crossIcon {
+  width: 10px;
+  margin-right: 1px;
+}
+
+.addToCartButton {
+  background-color: #0080ff;
+  padding: 3px 8px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+}

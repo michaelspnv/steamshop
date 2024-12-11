@@ -1,0 +1,7 @@
+/client/node_modules
+/client/dist
+/client/package-lock.json
+
+/bot/node_modules
+/bot/.env
+/bot/package-lock.json

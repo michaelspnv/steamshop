@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  height: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;
+  border: 1px solid #2e2e2e;
+  border-radius: 6px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  color: var(--tg-theme-text-color);
+  user-select: none;
+}
+
+.input {
+  width: 20px;
+  outline: none;
+  color: var(--tg-theme-text-color);
+  font-family: inherit;
+  font-size: 10px;
+  background-color: var(--tg-theme-secondary-bg-color);
+  border: none;
+  text-align: center;
+}
